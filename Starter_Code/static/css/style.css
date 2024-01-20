@@ -1,0 +1,28 @@
+/* Set the map container size */
+#map {
+  height: 500px;
+}
+
+/* Style the legend */
+.info.legend {
+  background-color: white;
+  width: 75px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 150px;
+  bottom: 20px;
+}
+
+/* Style legend swatches */
+.info.legend div {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Style legend labels */
+.info.legend span {
+  margin-right: 10px;
+}
